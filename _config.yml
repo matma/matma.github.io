@@ -1,0 +1,10 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://matma.github.io
+title: Github linter
+email: matmaw@gmail.com
+author: Mateusz Wolsza
+description: Blog for github-linter project.
+paginate: 6
+google_analytics: UA-73875901-1
