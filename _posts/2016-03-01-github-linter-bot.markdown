@@ -1,6 +1,6 @@
 ---
 published: true
-title: Github linter bot
+title: GitHub linter bot
 layout: post
 ---
 ## Motivation
@@ -11,13 +11,13 @@ On the other hand - every team has people that are interested in keeping code cl
 
 ## Project description
 
-The goal is to write a *[GitHub linter bot](https://github.com/matma/github-linter)* Following project will show basics of [Github webhooks](https://developer.github.com/webhooks/), how can we use it together with [ESLint](http://eslint.org/) to create linter for JavaScript. But our bot should be written in form that'll allow us to plug any linter to it.
+The goal is to write a *[GitHub linter bot](https://github.com/matma/github-linter)* Following project will show basics of [GitHub webhooks](https://developer.github.com/webhooks/), how can we use it together with [ESLint](http://eslint.org/) to create linter for JavaScript. But our bot should be written in form that'll allow us to plug any linter to it.
 
 I won't explain basic stuff, how to install or configure things. Google is your friend!
 
 ## Basic workflow
 
-At every *push*, Github can send HTTP request on given address with specific [payload](https://developer.github.com/v3/activity/events/types/#pushevent). This is the initial point of our workflow. We need to listen for incoming events, get information about changes from it, get changed code and lint it. That's it :) Sounds really easy. And that's it. 
+At every *push*, GitHub can send HTTP request on given address with specific [payload](https://developer.github.com/v3/activity/events/types/#pushevent). This is the initial point of our workflow. We need to listen for incoming events, get information about changes from it, get changed code and lint it. That's it :) Sounds really easy. And that's it. 
 
 ## Technology stack
 
