@@ -25,7 +25,7 @@ I want to complicate things a bit and write it in [PureScript](http://www.puresc
 
 Why? Because I believe that [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming) is the future of professional programming and if we get on this train later then we can still find free places in 1st class car :) 
 
-Also it's just f*** awesome to cut a lot of possible bugs just by using *the righ* tool :D
+Also it's just f**** awesome to cut a lot of possible bugs just by using *the right* tool :D
 
 At the very bottom all code will be executed on [node.js](https://nodejs.org/en/). I'll use some additional libraries for PureScript and node, but I want this code to be as clean as possible. 
 
