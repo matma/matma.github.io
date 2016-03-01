@@ -11,7 +11,7 @@ On the other hand - every team has people that are interested in keeping code cl
 
 ## Project description
 
-The goal is to write a *[Github linter bot](https://github.com/matma/github-linter)* Following project will show basics of [Github webhooks](https://developer.github.com/webhooks/), how can we use it together with [ESLint](http://eslint.org/) to create linter for JavaScript. But our bot should be written in form that'll allow us to plug any linter to it.
+The goal is to write a *[GitHub linter bot](https://github.com/matma/github-linter)* Following project will show basics of [Github webhooks](https://developer.github.com/webhooks/), how can we use it together with [ESLint](http://eslint.org/) to create linter for JavaScript. But our bot should be written in form that'll allow us to plug any linter to it.
 
 I won't explain basic stuff, how to install or configure things. Google is your friend!
 
