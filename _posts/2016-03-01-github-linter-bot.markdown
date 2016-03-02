@@ -23,7 +23,7 @@ At every *push*, GitHub can send HTTP request on given address with specific [pa
 
 I want to complicate things a bit and write it in [PureScript](http://www.purescript.org/). It's very [Haskell](https://www.haskell.org/) like language that's being compiled to JavaScript.
 
-Why? Because I believe that [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming) is the future of professional programming and if we get on this train later then we can still find free places in 1st class car :) 
+Why? Because I believe that [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming) is the future of professional programming and if we get on this train earlier then we can still find free places in 1st class car :) 
 
 Also it's just f**** awesome to cut a lot of possible bugs just by using *the right* tool :D
 
