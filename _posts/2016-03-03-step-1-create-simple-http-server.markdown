@@ -47,7 +47,7 @@ Main finding of the day:
 and provide `respond` callback (3). Assigns it to server which is const,
 because I heard that all data is const in PureScript. Maybe I'm wrong.
 
-Question for the day:
+Question of the day:
 > What the f... are those *$* and *= do*
 
 Bonus question:
