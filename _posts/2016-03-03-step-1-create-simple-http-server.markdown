@@ -6,7 +6,7 @@ layout: post
 # Step 1
 
 After installation & run `purs init`, `bower install purescript-node-http` I
-tried to undestand what's going on :)
+tried to undestand what's going on :smile:
 
 My idea was to start node.js http server using standard [http
 module](https://nodejs.org/api/http.html) in the simplest form.
