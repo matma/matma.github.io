@@ -8,3 +8,5 @@ author: Mateusz Wolsza
 description: Blog for github-linter project.
 paginate: 6
 google_analytics: UA-73875901-1
+gems:
+  - jemoji
