@@ -12,7 +12,7 @@ My idea was to start node.js http server using standard [http
 module](https://nodejs.org/api/http.html) in the simplest form.
 
 After few fails, I copied the example from purescript-node-http
-[repo](https://github.com/purescript-node/purescript-node-http/blob/master/test/Main.purs)
+[repo](https://github.com/purescript-node/purescript-node-http/blob/master/test/Main.purs).
 
 After fixing some warnings it got run.
 
@@ -59,3 +59,5 @@ Question of the day:
 
 Bonus question:
 > What is *void* - (2)
+
+Code can be found at this [GitHub tag](https://github.com/matma/github-linter/tree/step-1).
