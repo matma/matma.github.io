@@ -5,7 +5,7 @@ layout: post
 ---
 
 After installation & run `purs init`, `bower install purescript-node-http` I
-tried to undestand what's going on :smile:
+tried to undestand what's going on :smile:.
 
 My idea was to start node.js http server using standard [http
 module](https://nodejs.org/api/http.html) in the simplest form.
@@ -43,7 +43,7 @@ And to test it we'll use `curl`:
  - on first terminal - `pulp run`
  - on second terminal - `curl :8080`
 
-And the result is - displaying *"Incoming request"* :smiley_cat:
+And the result is - displaying *"Incoming request"* :smiley_cat:.
 
 Main finding of the day:
  - (1) - call
@@ -51,7 +51,7 @@ Main finding of the day:
 and provide `respond` callback (3). Assigns it to server which is const,
 because I heard that all data is const in PureScript. Maybe I'm wrong.
 
-`log` just logs :smile:
+`log` just logs :smile:.
 
 Question of the day:
 > What the f... are those *$* and *= do*
