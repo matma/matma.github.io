@@ -1,6 +1,6 @@
 ---
 published: false
-title: Step 1 - create simple HTTP server
+title: First day with PureScript
 layout: post
 ---
 # Step 1
@@ -31,21 +31,28 @@ import Data.Foldable (foldMap)
 
 import Control.Monad.Eff.Console
 
-
 main = do
   server <- createServer respond -- (1)
   listen server 8080 $ void do   -- (2)
     log "Server is listening!"
   where
   respond req res = do           -- (3)
-    log ( "Incoming: " <> requestMethod req <> " " <> requestURL req)
+    log "Incoming request"
 ```
+
+And to test it we'll use `curl`:
+ - on first terminal - `pulp run`
+ - on second terminal - `curl :8080`
+
+And the result is - displaying *"Incoming request"* :smiley_cat:
 
 Main finding of the day:
  - (1) - call
    [createServer](https://nodejs.org/api/http.html#http_http_createserver_requestlistener)
 and provide `respond` callback (3). Assigns it to server which is const,
 because I heard that all data is const in PureScript. Maybe I'm wrong.
+
+`log` just logs :smile:
 
 Question of the day:
 > What the f... are those *$* and *= do*
