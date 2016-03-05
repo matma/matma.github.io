@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: First day with PureScript
 layout: post
 ---
