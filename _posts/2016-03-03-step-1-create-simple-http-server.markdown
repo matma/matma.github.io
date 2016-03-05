@@ -3,7 +3,6 @@ published: true
 title: First day with PureScript
 layout: post
 ---
-# Step 1
 
 After installation & run `purs init`, `bower install purescript-node-http` I
 tried to undestand what's going on :smile:
