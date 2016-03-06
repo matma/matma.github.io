@@ -46,16 +46,16 @@ And to test it we'll use `curl`:
 And the result is - displaying *"Incoming request"*!
 
 Main finding of the day:  
- - (1) - call [createServer](https://nodejs.org/api/http.html#http_http_createserver_requestlistener)
-and provide `respond` callback (3). Assigns it to server which is const,
+ - line 14 - call [createServer](https://nodejs.org/api/http.html#http_http_createserver_requestlistener)
+and provide `respond` callback. Assigns it to server which is const,
 because I heard that all data is const in PureScript. Maybe I'm wrong.
 
 `log` just logs :)
 
 Question of the day:  
-> What the f... are those *$* and *= do*
+> What the f... are those *$* and *= do* - line 15
 
 Bonus question:  
-> What is *void* - (2)
+> What is *void* - line 15
 
 Code can be found at this [GitHub tag](https://github.com/matma/github-linter/tree/step-1).
