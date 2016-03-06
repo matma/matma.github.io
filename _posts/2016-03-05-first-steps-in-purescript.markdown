@@ -17,7 +17,7 @@ After fixing some warnings it got run.
 
 So I removed all but bare minimum which gave code as below:
 
-```purescript
+{% highlight purescript %}
 module Main where
 
 import Prelude
@@ -37,7 +37,7 @@ main = do
   where
   respond req res = do           -- (3)
     log "Incoming request"
-```
+{% endhighlight %}
 
 And to test it we'll use `curl`:
  - on first terminal - `pulp run`
