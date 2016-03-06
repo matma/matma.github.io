@@ -40,13 +40,13 @@ main = do
 {% endhighlight %}
 
 And to test it we'll use `curl`:  
- - on first terminal - `pulp run`  
- - on second terminal - `curl :8080`  
+ * on first terminal - `pulp run`  
+ * on second terminal - `curl :8080`  
 
 And the result is - displaying *"Incoming request"*!
 
 Main finding of the day:  
- - line 14 - call [createServer](https://nodejs.org/api/http.html#http_http_createserver_requestlistener)
+ * line 14 - call [createServer](https://nodejs.org/api/http.html#http_http_createserver_requestlistener)
 and provide `respond` callback. Assigns it to server which is const,
 because I heard that all data is const in PureScript. Maybe I'm wrong.
 
