@@ -17,7 +17,7 @@ After fixing some warnings it got run.
 
 So I removed all but bare minimum which gave code as below:
 
-{% highlight purescript %}
+{% highlight haskell %}
 module Main where
 
 import Prelude
@@ -31,11 +31,11 @@ import Data.Foldable (foldMap)
 import Control.Monad.Eff.Console
 
 main = do
-  server <- createServer respond -- (1)
-  listen server 8080 $ void do   -- (2)
+  server <- createServer respond
+  listen server 8080 $ void do  
     log "Server is listening!"
   where
-  respond req res = do           -- (3)
+  respond req res = do          
     log "Incoming request"
 {% endhighlight %}
 
