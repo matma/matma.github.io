@@ -1,6 +1,7 @@
 excerpt_separator: ""
 pygments: true
 markdown: kramdown
+  input: GFM
 url: http://matma.github.io
 title: Github linter
 email: matmaw@gmail.com
