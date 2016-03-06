@@ -50,12 +50,14 @@ Main finding of the day:
 and provide `respond` callback. Assigns it to server which is const,
 because I heard that all data is const in PureScript. Maybe I'm wrong.
 
-`log` just logs :)
+`log` just logs on console :)
 
 Question of the day:  
+
 > What the f... are those *$* and *= do* - line 15
 
 Bonus question:  
+
 > What is *void* - line 15
 
 Code can be found at this [GitHub tag](https://github.com/matma/github-linter/tree/step-1).
