@@ -17,7 +17,7 @@ After fixing some warnings it got run.
 
 So I removed all but bare minimum which gave code as below:
 
-{% highlight haskell %}
+{% highlight haskell linenos %}
 module Main where
 
 import Prelude
