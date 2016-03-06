@@ -39,9 +39,9 @@ main = do
     log "Incoming request"
 {% endhighlight %}
 
-And to test it we'll use `curl`:
- - on first terminal - `pulp run`
- - on second terminal - `curl :8080`
+And to test it we'll use `curl`:  
+ - on first terminal - `pulp run`  
+ - on second terminal - `curl :8080`  
 
 And the result is - displaying *"Incoming request"*!
 
