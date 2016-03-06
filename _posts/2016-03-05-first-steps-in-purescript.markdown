@@ -53,10 +53,10 @@ because I heard that all data is const in PureScript. Maybe I'm wrong.
 
 `log` just logs :)
 
-Question of the day:
+Question of the day:  
 > What the f... are those *$* and *= do*
 
-Bonus question:
+Bonus question:  
 > What is *void* - (2)
 
 Code can be found at this [GitHub tag](https://github.com/matma/github-linter/tree/step-1).
