@@ -46,8 +46,7 @@ And to test it we'll use `curl`:
 And the result is - displaying *"Incoming request"*!
 
 Main finding of the day:  
- - (1) - call
-   [createServer](https://nodejs.org/api/http.html#http_http_createserver_requestlistener)
+ - (1) - call [createServer](https://nodejs.org/api/http.html#http_http_createserver_requestlistener)
 and provide `respond` callback (3). Assigns it to server which is const,
 because I heard that all data is const in PureScript. Maybe I'm wrong.
 
