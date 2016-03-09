@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Answering first questions in PureScript
 layout: post
 ---
@@ -28,6 +28,7 @@ Working example (after installing
 [purescript-lists](https://github.com/purescript/purescript-lists/blob/master/docs/Data/List.md))
 
 Take first element from generated list of integers from 1 to 20
+
 {% highlight haskell %}
 head range 1 20 -- it will throw because PureScript interpreter will try to apply `range` to `head` and then 1 to result of it
 
