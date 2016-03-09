@@ -3,8 +3,6 @@ published: true
 title: Answering first questions in PureScript
 layout: post
 ---
-# Day 2
-
 Today I started to read for the 3rd time
 [Purescript by Example](https://leanpub.com/purescript/read).
 First time with proper idea what I want to write :)
