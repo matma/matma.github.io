@@ -4,7 +4,7 @@ title: HTTP server for incoming payload
 layout: post
 ---
 
-# Simple server
+### Simple server
 
 So the main idea is to write an [eslint](http://eslint.org) bot for GitHub.
 It'll be listening on given port any POST request and deal with it. GitHub has
@@ -74,7 +74,7 @@ I should get familiar with. It'll take probably whole day. Some future day :)
 Just one thing at the end - `(return unit)` *probably* means - we do not want
 to use any effects.
 
-# Proper server
+### Proper server
 
 We want to handle "POST" method, so we need to modify the code a bit, but
 it's rather straightforward - we can just use
@@ -108,7 +108,7 @@ $ curl localhost:8080 --data '{ "test_key": "test_value"}' | jq
 
 Input copied to output, as we expected!
 
-# Summary
+### Summary
 
 First part of our puzzle is in place. Server is up & running and ready to
 receive payload from GitHub.
