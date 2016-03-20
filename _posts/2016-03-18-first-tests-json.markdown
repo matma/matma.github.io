@@ -88,12 +88,12 @@ enough.
 For right value - let's write helper function that'll do checking for us.
 
 Let's run it:
-```
+{% highlight sh %}
 $ pulp test
 * Build successful.
 * Running tests...
 * Tests OK.
-```
+{% endhighlight %}
 
 Success! Code as always it it's
 [tag](https://github.com/matma/github-linter/tree/step-3)
